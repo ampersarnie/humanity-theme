@@ -25,7 +25,6 @@ wp.domReady(() => {
     const blocksToDisable = [
       'amnesty-core/image-block',
       'amnesty-core/links-with-icons',
-      'amnesty-core/background-media',
       'amnesty-core/countdown-timer',
       'amnesty-core/term-list',
       'amnesty-core/block-recipients',

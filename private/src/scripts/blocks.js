@@ -39,7 +39,6 @@ import './editor/blocks/recepients/index.jsx';
 import './editor/blocks/button/index.jsx';
 import './editor/blocks/link-group/index.jsx';
 import './editor/blocks/stat-counter/index.jsx';
-import './editor/blocks/background-media/index.jsx';
 import './editor/blocks/term-list/index.jsx';
 import './editor/blocks/regions/index.jsx';
 import './editor/blocks/petition-list/index.jsx';

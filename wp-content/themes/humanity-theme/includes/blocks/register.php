@@ -10,8 +10,6 @@ if ( ! function_exists( 'register_block_type' ) ) {
 
 require_once __DIR__ . '/action/register.php';
 require_once __DIR__ . '/action/render.php';
-require_once __DIR__ . '/background-media/register.php';
-require_once __DIR__ . '/background-media/render.php';
 require_once __DIR__ . '/blockquote/register.php';
 require_once __DIR__ . '/blockquote/render.php';
 require_once __DIR__ . '/collapsable/register.php';
@@ -67,7 +65,6 @@ if ( ! function_exists( 'amnesty_register_php_rendered_blocks' ) ) {
 	 */
 	function amnesty_register_php_rendered_blocks() {
 		register_action_block();
-		register_background_media_block();
 		register_blockquote_block();
 		register_collapsable_block();
 		register_custom_card_block();
